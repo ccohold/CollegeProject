@@ -1,0 +1,224 @@
+body{
+    font: arial, helbetica, sans-serif; height: 100%;
+}
+
+#container{
+    width: auto;
+    max-width: 1200px;
+    min-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.clear{
+    clear: both;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: Black;
+    text-decoration: none;
+}
+
+#header{
+    height: 90px;
+    padding: 10px 0px;
+}
+
+#brand{
+    float: left;
+}
+
+#searchbox{
+    float: right;
+    width: 400px;
+    height: 50px;
+    background: linear-gradient(white,blueviolet);
+    background: -webkit-linear-gradient(white,blueviolet);
+    background: -ms-linear-gradient(white,blueviolet);
+    background: -moz-linear-gradient(white,blueviolet);
+    background: -o-linear-gradient(white,blueviolet);
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 180px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: white url(../image/search.png) right no-repeat;
+    border: 1px solid #grey;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: black;
+    border: 1px solid #grey;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(blueviolet,white);
+    background: -ms-linear-gradient(blueviolet,white);
+    background: -o-linear-gradient(blueviolet,white);
+    background: -moz-linear-gradient(blueviolet,white);
+    background: -webkit-linear-gradient(blueviolet,white);
+    padding: 10px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid black;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -md-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+}
+
+#menu ul li a.active{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+#menu ul li a:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#introduction{
+background: linear-gradient(white,blueviolet);
+background: -moz-linear-gradient(white,blueviolet);
+background: -webkit-linear-gradient(white,blueviolet);
+background: -o-linear-gradient(white,blueviolet);
+background: -ms-linear-gradient(white,blueviolet);
+    padding: 30px;
+    margin: 15px 0px;
+    height: 300px;
+}
+
+#introduction h3{
+    font-size: 50px;
+    color:black;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+}
+
+.sidebar h3{
+    color: black;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar ul li a:hover, siderbar ul li a.active{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+    -md-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+}
+
+.sidebar{
+    width: 550px;
+    height: 500px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 10px; 30px;
+	
+}
+.sidebar header h3{text-align:center;}
+#formcontain{margin:0 auto;
+	width:35%;
+}
+
+.textboxes{width:200px;
+	height:40px;
+}
+textarea{
+	width:198px;
+	height:80px;
+	}
+button {
+	height:40px;
+	}
+#leftsidebar{
+    float: left;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar ul li{
+    padding: 0px 0px 5px 10px;
+    list-style-image: url(../image/arrow.png);
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#rightsidebar ul li{
+    padding: 10px 0px 10px 30px;
+    background: url(../image/pchecks.png) no-repeat left center;
+}
+
+#rightsiderbar ul li a{
+    
+}
+
+.footer{
+    height: 30px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 10px; 30px;
+    padding: 10px 30px;
+    margin-top: 5px;
+}
